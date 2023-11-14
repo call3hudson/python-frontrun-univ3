@@ -68,6 +68,7 @@ PyRect==0.2.0
 pyscreenshot==3.1
 PyScreeze==0.1.29
 PySocks==1.7.1
+python-dotenv==1.0.0
 pytweening==1.0.7
 pyunormalize==15.0.0
 pywin32==306
