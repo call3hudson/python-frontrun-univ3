@@ -1,0 +1,3 @@
+[submodule "lib/weird-erc20"]
+	path = lib/weird-erc20
+	url = https://github.com/transmissions11/weird-erc20
