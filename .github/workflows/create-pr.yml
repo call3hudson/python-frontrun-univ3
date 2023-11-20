@@ -1,0 +1,16 @@
+name: Auto-PR
+on: push
+
+jobs:
+  pull-request:
+    name: Open PR to main
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        name: checkout
+
+      - name: pull-request
+        run: |
+          gh auth login --with-token <<< "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"
+          gh pr create --title "PR" --body "An automated PR"
+          gh pr merge --admin --merge
